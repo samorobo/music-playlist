@@ -22,7 +22,7 @@ function App() {
     setPlaylist([]); // Clear playlist during loading
     try {
       const response = await axios.get(
-        `https://backend-ne7e.onrender.com/api/playlist/ ${genre}`
+        `https://backend-ne7e.onrender.com/api/playlist/${genre}`
       );
       setPlaylist(response.data.playlist);
     } catch (err) {
