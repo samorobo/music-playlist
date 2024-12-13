@@ -63,6 +63,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+
+
+
+
+
+KINDE_CLIENT_ID=bce9a12b78044365b7d3e442c1df80de
+KINDE_CLIENT_SECRET=pYipE7eZMnTF3TAtzbuL0AxVDXRgj4ar9lFRkZT4KRCBV0sa
+KINDE_ISSUER_URL=https://casecobrasam.kinde.com
+KINDE_SITE_URL=http://localhost:3000
+KINDE_POST_LOGOUT_REDIRECT_URL=http://localhost:3000
+KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/auth-callback
+
+ADMIN_EMAIL=samgodwin111@gmail.com
+
+NEXT_PUBLIC_SERVER_URL=http://localhost:3000
+
+STRIPE_SECRET_KEY=sk_test_51Pr6ldP584mQJcYG64aTs1jNvVhJuKVYAcNYc16NQZlYxZwbdpmN9f0v5YuX14RBO47kzsoYSb1rJlc3mxPWfcFy00eQDjKaTJ
+
+STRIPE_WEBHOOKS_SECRET=whsec_eK1qW7Ybp7UFgyOVC6exXfroFHLPT4oK
+
+UPLOADTHING_SECRET=sk_live_e8f3d70eae7b5cd7e29478f4457969133d89829782715f3db39809ffbbf8a9d9
+UPLOADTHING_APP_ID=vpa3kgii2f
+
+DATABASE_URL=postgresql://casecobra_owner:KU6C3kHlThvx@ep-wandering-scene-a2ujsoui.eu-central-1.aws.neon.tech/casecobra?sslmode=require
+
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
